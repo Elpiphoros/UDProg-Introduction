@@ -17,7 +17,7 @@ const vector<string> months =
 };
 
 enum class Month {
-	jan =1, feb, mar, apr, may, june, july, aug, sept, oct, nov, dec
+	jan, feb, mar, apr, may, june, july, aug, sept, oct, nov, dec
 };
 
 Month operator++(Month& m)
